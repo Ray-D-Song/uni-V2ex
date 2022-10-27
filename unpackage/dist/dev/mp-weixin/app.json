@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hot/hot",
+    "pages/nodes/nodes",
+    "pages/node_detail/node_detail",
+    "pages/thread_deatil/thread_detail",
+    "pages/user_info/user_info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "V2ex",
+    "navigationBarBackgroundColor": "#292a2d",
+    "backgroundColor": "#292a2d"
+  },
+  "tabBar": {
+    "backgroundColor": "#292a2d",
+    "color": "#f8f9fa",
+    "selectedColor": "#89b3f7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/lastest.png",
+        "selectedIconPath": "static/lastest_on.png",
+        "text": "最新"
+      },
+      {
+        "iconPath": "static/hotest.png",
+        "selectedIconPath": "static/hotest_on.png",
+        "pagePath": "pages/hot/hot",
+        "text": "热门"
+      },
+      {
+        "iconPath": "static/node.png",
+        "selectedIconPath": "static/node_on.png",
+        "pagePath": "pages/nodes/nodes",
+        "text": "节点"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

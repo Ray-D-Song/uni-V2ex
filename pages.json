@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "最新"
+			}
+		},
+		{
+			"path": "pages/hot/hot",
+			"style": {
+				"navigationBarTitleText": "热门"
+			}
+		},
+		{
+			"path": "pages/nodes/nodes",
+			"style": {
+				"navigationBarTitleText": "节点"
+			}
+		},
+		{
+			"path": "pages/node_detail/node_detail",
+			"style": {
+				"navigationBarTitleText": "节点详情"
+			}
+		},
+		{
+			"path": "pages/thread_deatil/thread_detail",
+			"style": {
+				"navigationBarTitleText": "线程"
+			}
+		},
+		{
+			"path": "pages/user_info/user_info",
+			"style": {
+				"navigationBarTitleText": "用户信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "V2ex",
+		"navigationBarBackgroundColor": "#292a2d",
+		"backgroundColor": "#292a2d"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"backgroundColor": "#292a2d",
+		"color": "#f8f9fa",
+		"selectedColor": "#89b3f7",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/lastest.png",
+				"selectedIconPath": "static/lastest_on.png",
+				"text": "最新"
+			},
+			{
+				"iconPath": "static/hotest.png",
+				"selectedIconPath": "static/hotest_on.png",
+				"pagePath": "pages/hot/hot",
+				"text": "热门"
+			},
+			{
+				"iconPath": "static/node.png",
+				"selectedIconPath": "static/node_on.png",
+				"pagePath": "pages/nodes/nodes",
+				"text": "节点"
+			}
+		]
+	}
+}

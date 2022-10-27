@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "线程",
+  "usingComponents": {
+    "topic": "/components/topic/topic",
+    "reply": "/components/reply/reply"
+  }
+}

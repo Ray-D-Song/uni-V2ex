@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "热门",
+  "usingComponents": {
+    "card": "/components/card/card"
+  }
+}

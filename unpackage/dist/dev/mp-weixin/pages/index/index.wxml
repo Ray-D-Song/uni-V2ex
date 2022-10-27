@@ -1,0 +1,1 @@
+<view class="container _div"><block wx:for="{{infoList}}" wx:for-item="info" wx:for-index="__i0__" wx:key="id"><card vue-id="{{'8dd740cc-1-'+__i0__}}" msg="{{info}}" bind:__l="__l"></card></block></view>

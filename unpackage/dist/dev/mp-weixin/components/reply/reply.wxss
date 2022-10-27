@@ -1,0 +1,36 @@
+
+.avatar.data-v-6acf99cc {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 0.2rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.block1.data-v-6acf99cc {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.usr.data-v-6acf99cc {
+	display: flex;
+	flex-direction: column;
+}
+.container.data-v-6acf99cc {
+	border-bottom: 0.5px #3A3C41 solid;
+	border-top: 0.5px #3A3C41 solid;
+}
+.content.data-v-6acf99cc {
+	margin: 0.2rem 0.5rem 0.5rem 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.usrname.data-v-6acf99cc {
+	margin-left: 0.5rem;
+	margin-top: 0.2rem;
+}
+.created.data-v-6acf99cc {
+	font-size: 0.75rem;
+	color: #B2B8C8;
+	margin-left: 0.5rem;
+	margin-bottom: 0.2rem;
+}
+

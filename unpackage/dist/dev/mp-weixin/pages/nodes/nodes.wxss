@@ -1,0 +1,15 @@
+
+.listName {
+	color: #89b3f7;
+	font-size: 1.1rem;
+	background-color: #43454B;
+	padding: 0 0.3rem 0 0.3rem;
+}
+.name {
+	margin: 0.3rem 0.8rem 0.3rem 0;
+}
+.block {
+	display: flex;
+	flex-wrap: wrap;
+}
+
